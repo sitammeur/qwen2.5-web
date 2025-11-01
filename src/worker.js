@@ -73,7 +73,7 @@ async function generate(messages) {
   const { past_key_values, sequences } = await model.generate({
     ...inputs,
     // TODO: Add when model is fixed
-    // past_key_values: past_key_values_cache,
+    past_key_values: past_key_values_cache,
 
     // Sampling
     do_sample: false,

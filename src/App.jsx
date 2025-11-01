@@ -210,6 +210,12 @@ function App() {
       {status === null && messages.length === 0 && (
         <div className="h-full overflow-auto scrollbar-thin flex justify-center items-center flex-col relative">
           <div className="flex flex-col items-center mb-1 max-w-[340px] text-center">
+            <img
+              src="qwen-logo.png"
+              width="80%"
+              height="auto"
+              className="block drop-shadow-lg bg-transparent"
+            />
             <h1 className="text-4xl font-bold mb-1">Qwen-2.5 Web 🤖</h1>
             <h2 className="font-semibold">
               A LLM that runs directly in your browser. 🚀
